@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Inventor backups, journals & system libraries
+*.bak
+*.old
+OldVersions/
+packngo.log
+Design Data/
+Templates/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
