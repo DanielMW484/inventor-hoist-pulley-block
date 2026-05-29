@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Autodesk_Inventor-0078D4?style=flat-square&logo=autodeskrevit&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Autodesk_Inventor-0078D4?style=flat-square&logo=autodesk&logoColor=white"/>
   <img src="https://img.shields.io/badge/Mechanical_Design-555?style=flat-square"/>
   <img src="https://img.shields.io/badge/CAD-1A73E8?style=flat-square"/>
   <img src="https://img.shields.io/badge/Universidad_Fidélitas-00897B?style=flat-square"/>
@@ -30,7 +30,7 @@ A fully modeled **multi-body mechanical assembly** of a hoist pulley block (snat
 - **ISO standard fasteners**: M10 and M12 hex nuts (ISO 4032) for load-bearing assembly  
 - **Complete assembly**: all parts constrained and positioned in `Ensamble.iam`  
 - **Exploded presentation** (`Ensamble video.ipn`) showing component relationship and assembly sequence  
-- **Animation** (`Storyboard1.wmv`) demonstrating the assembled mechanism  
+- **Animation** (`assembly-animation.wmv`) demonstrating the assembled mechanism  
 - **Technical drawing** (`plano.dwg` + PDF) with parts list, dimensioning, and orthogonal views
 
 ### Mechanism at a glance
@@ -62,9 +62,9 @@ A fully modeled **multi-body mechanical assembly** of a hoist pulley block (snat
 
 ✓ **Multi-body assembly** — 11 custom parts constrained and positioned with full mate relationships  
 ✓ **Exploded presentation** — interactive exploded view showing assembly sequence and component arrangement  
-✓ **Animation** — timeline-driven `Storyboard1.wmv` demonstrating the complete assembly  
+✓ **Animation** — timeline-driven `assembly-animation.wmv` demonstrating the complete assembly  
 ✓ **ISO standard fasteners** — real metric hardware (M10, M12) from Inventor's standard library  
-✓ **Functional geometry** — load-bearing hook hook, grooved sheave for rope/chain, load-bearing support plates  
+✓ **Functional geometry** — load-bearing hook, grooved sheave for rope/chain, load-bearing support plates  
 ✓ **Technical drawing set** — orthogonal views, parts list, dimensioning per engineering standards  
 
 ---
@@ -108,11 +108,11 @@ Course project for **Diseño Asistido por Computador** (Computer-Aided Design),
 
 Ensamble **mecánico multi-cuerpo** completo de una trócola (polea de amarre / snatch block), diseñado en Autodesk Inventor. El proyecto demuestra:
 
-- **Piezas personalizadas** (11 componentes diseñados): gancho de levantamiento con lug giratorio, polea ranurada, placas de soporte duales, cubierta de acoplamiento y jefes de anclaje  
-- **Fasteners ISO estándar**: tuercas hexagonales M10 y M12 (ISO 4032) para ensamble resistente a cargas  
+- **Piezas personalizadas** (11 componentes diseñados): gancho de levantamiento con orejeta giratoria, polea ranurada, placas de soporte duales, cubierta de acoplamiento y refuerzos de anclaje  
+- **Tornillería ISO estándar**: tuercas hexagonales M10 y M12 (ISO 4032) para ensamble resistente a cargas  
 - **Ensamble completo**: todas las piezas limitadas y posicionadas en `Ensamble.iam`  
 - **Presentación explosionada** (`Ensamble video.ipn`) mostrando relación de componentes y secuencia de montaje  
-- **Animación** (`Storyboard1.wmv`) demostrando el mecanismo ensamblado  
+- **Animación** (`assembly-animation.wmv`) demostrando el mecanismo ensamblado  
 - **Plano técnico** (`plano.dwg` + PDF) con lista de piezas, acotación y vistas ortogonales
 
 ### Mecanismo resumen
@@ -121,7 +121,7 @@ Ensamble **mecánico multi-cuerpo** completo de una trócola (polea de amarre / 
 |---|---|
 | **Tipo** | Polea de amarre / trócola de levantamiento |
 | **Componentes** | 11 piezas personalizadas + 2× ISO 4032 M10 + 1× ISO 4032 M12 |
-| **Ensamble** | Gancho de carga + polea fija + placas de retención + fasteners |
+| **Ensamble** | Gancho de carga + polea fija + placas de retención + tornillería |
 | **Características clave** | Gancho de levantamiento giratorio, polea ranurada, estructura dual de placas laterales |
 | **Escala** | Plano técnico a tamaño completo (cotas según dibujo) |
 
@@ -144,8 +144,8 @@ Ensamble **mecánico multi-cuerpo** completo de una trócola (polea de amarre / 
 
 ✓ **Ensamble multi-cuerpo** — 11 piezas personalizadas limitadas y posicionadas con relaciones de restricción completas  
 ✓ **Presentación explosionada** — vista explosionada interactiva mostrando secuencia de montaje y disposición de componentes  
-✓ **Animación** — `Storyboard1.wmv` controlado por timeline demostrando el ensamble completo  
-✓ **Fasteners métricos ISO estándar** — hardware real métrico (M10, M12) de la librería estándar de Inventor  
+✓ **Animación** — `assembly-animation.wmv` basado en línea de tiempo demostrando el ensamble completo  
+✓ **Tornillería métrica ISO estándar** — hardware real métrico (M10, M12) de la librería estándar de Inventor  
 ✓ **Geometría funcional** — gancho resistente a carga, polea ranurada para cable/cadena, placas de soporte resistentes  
 ✓ **Juego de planos técnico** — vistas ortogonales, lista de materiales, acotación conforme a estándares de ingeniería  
 
